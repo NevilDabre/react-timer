@@ -31,3 +31,31 @@
     transform: rotate(360deg);
   }
 }
+
+.title-text{
+  font-size: 70px;
+  background: linear-gradient(to right, #30CFD0 0%, #ffff55 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.timer-text{
+  font-size: 60px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.start-button{
+  border-radius: 5px;
+  width: 100px;
+  border: aliceblue;
+  background: #30CFD0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
